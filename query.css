@@ -1,0 +1,53 @@
+@media only screen and (max-width: 58.375em) {
+
+  .container,
+  .container2 {
+    width: 80%;
+  }
+
+
+}
+
+@media only screen and (max-width: 46.625em) {
+
+
+
+  .input,
+  .upload,
+  textarea {
+    width: 80%;
+  }
+
+  .input:focus,
+  .upload:focus {
+    width: 83%;
+  }
+
+  .about {
+    padding: 0 3rem;
+  }
+}
+
+
+@media only screen and (max-width: 32.4375em) {
+
+  .input,
+  .upload,
+  textarea {
+    width: 86%;
+  }
+
+  .input:focus,
+  .upload:focus {
+    width: 90%;
+  }
+
+
+  .container2 {
+    width: 90%;
+  }
+
+  .about {
+    padding: 0 2rem;
+  }
+}

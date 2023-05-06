@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="query.css">
+    <script src="https://kit.fontawesome.com/c6614d5790.js" crossorigin="anonymous"></script>
+    <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+    <title>Profile Generator</title>
+  </head>
+  <body>
+    <div class="box">
+      <p class="back">&larr;</p>
+      <div class="container">
+        <h1 class="header">Welcome to SnapCard</h1>
+        <input type="text" class="input input-name" placeholder="Enter your full name">
+        <input type="text" class="input input-niche" placeholder="Enter your job title (e.g Frontend Developer)">
+        <input type="file" id="image" name="image" class="upload" accept="image/jpeg, image/png, image/jpg"
+          placeholder="Upload your profile picture">
+        <input type="text" class="input input-handle" placeholder="Enter your email address(e.g salman@gmail.com)">
+        <input type="tel" class="input input-phone" placeholder="Enter your phone number(e.g 08160219474)">
+        <textarea rows="10" cols="80" placeholder="Tell us about you..." class="text"></textarea>
+        <button type="submit" class="submit">Generate Card</button>
+      </div>
+
+      <div class="container2">
+        <div class="banner">
+        </div>
+        <!-- <img src="profile.jpg" alt="" class="img"> -->
+        <div class="img"></div>
+        <h2 class="name">SALMAN ABDULSHAKUR</h2>
+        <h4 class="job">Backend developer</h4>
+        <p class="about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem sequi, modi repellat assumenda
+          culpa nemo.
+          Quas cupiditate reiciendis odit cumque perspiciatis commodi aut, voluptate quo accusantium velit labore in
+          nobis?</p>
+
+        <div class="social-presence">
+          <div class="handle"><i class="fa-solid fa-envelope"></i>
+            <p class="social">shakur-tobi</p>
+          </div>
+          <div class="handle"><i class="fa-sharp fa-solid fa-phone-volume"></i></i>
+            <p class="phone">08160219474</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <button class="download">Download as PNG</button>
+
+    <script src="index.js"></script>
+  </body>
+</html>

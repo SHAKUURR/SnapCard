@@ -1,0 +1,218 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 62.5%;
+  font-family: "Space Grotesk", sans-serif;
+  /* background-image: linear-gradient(to right bottom, #FF3366, #BA265D); */
+  background: #37517e;
+  width: 100%;
+  padding: 3rem 0;
+
+
+}
+
+.back {
+  margin-left: 5rem;
+  font-size: 1.8rem;
+  color: #fff;
+  cursor: pointer;
+  display: none;
+}
+
+.box {
+  /* background-image: linear-gradient(to right bottom, #FF3366, #BA265D); */
+  background: #37517e;
+  /* padding: 3rem; */
+  padding-bottom: 3rem;
+}
+
+.container {
+  background-color: #fff;
+  padding: 5rem;
+  text-align: center;
+  box-shadow: 0 2rem 6rem rgba(0, 0, 0, .3);
+  padding: 1.5rem;
+  border-radius: 1rem;
+  width: 60%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 10%;
+}
+
+.header {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #37517e;
+  font-weight: 700;
+}
+
+.input,
+.upload {
+  display: block;
+  border: 1px solid #081c40;
+  margin-right: auto;
+  margin-left: auto;
+  width: 60%;
+  padding: 1rem;
+  border-radius: .8rem;
+  margin-bottom: 3rem;
+  font-family: "Space Grotesk", sans-serif;
+  transition: all .5s;
+}
+
+.input:focus,
+.upload:focus {
+  border: 2px solid #37517e;
+  outline: none;
+  width: 65%;
+}
+
+.input::placeholder {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 1rem;
+
+}
+
+textarea {
+  display: block;
+  width: 70%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 1rem;
+  font-family: "Space Grotesk", sans-serif;
+  outline: none;
+  border: 2px solid #37517e;
+}
+
+textarea::placeholder {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 1rem;
+}
+
+textarea:focus {
+  border: 2px solid #37517e;
+}
+
+.submit {
+  width: 70%;
+  padding: .8rem;
+  font-family: "Space Grotesk", sans-serif;
+  /* background-color: #FF3366; */
+  background-color: #37517e;
+  border: none;
+  color: #fff;
+  font-size: 1.2rem;
+  border-radius: .2rem;
+  transition: all .2s;
+  margin-top: 3rem;
+}
+
+/* CONTAINER 2 */
+
+.container2 {
+  background-color: #fff;
+  padding: 0;
+  box-shadow: 0 6rem 6rem rgba(0, 0, 0, .3);
+  border-radius: 1rem;
+  width: 60%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 10%;
+  text-align: center;
+  display: none;
+
+  /* transition: all .5s ease-in-out; */
+}
+
+.banner {
+  /* background-color: #000; */
+  background: #081c40;
+  padding: 5rem;
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+}
+
+.img {
+  width: 150px;
+  height: 150px;
+  border: 5px solid #37517e;
+  border-radius: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: -5rem;
+  background-image: url(profile.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.name {
+  font-size: 1.8rem;
+  margin-top: 1.5rem;
+  color: #37517e;
+  padding: 0 2rem;
+  font-weight: 700;
+}
+
+.job {
+  font-size: 1rem;
+  margin-top: .6rem;
+  color: #081c40;
+  /* font-style: italic; */
+}
+
+.about {
+  padding: 0 5rem;
+  margin-top: 2rem;
+  font-size: 1.1rem;
+  line-height: 150%;
+  color: #021230;
+  word-wrap: break-word;
+  margin-bottom: 2rem;
+}
+
+.social-presence {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #021230;
+  color: #fff;
+  font-weight: 300;
+  margin-top: 2rem;
+  padding: 1rem;
+}
+
+.handle {
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  word-break: break-all;
+}
+
+.handle:last-child {
+  margin-left: .2rem;
+}
+
+.handle i {
+  margin-right: .2rem;
+}
+
+.download {
+  background-color: #fff;
+  color: #37517e;
+  margin-top: 3rem;
+  width: 30%;
+  margin-right: 35%;
+  margin-left: 35%;
+  padding: 1rem 0;
+  font-family: "Space Grotesk",
+    sans-serif;
+  margin-bottom: 2rem;
+  display: none;
+  border-radius: .5rem;
+  border: none;
+
+}
