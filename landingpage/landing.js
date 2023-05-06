@@ -37,7 +37,7 @@ document.querySelector(".barLink").addEventListener("click", function () {
 	if (sidebar.classList.contains("sidebarHidden")) {
 		sidebar.classList.remove("sidebarHidden");
 		sidebar.style.opacity = "1";
-		sidebar.style.width = "50%";
+		sidebar.style.width = "80%";
 		menu.classList.toggle("active");
 	} else {
 		sidebar.classList.add("sidebarHidden");
