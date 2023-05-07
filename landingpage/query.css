@@ -126,12 +126,31 @@
     font-size: 90%;
   }
 
+  section,
+  footer {
+    padding: 5rem 2rem;
+  }
+
+  header {
+    padding: 0rem 2rem;
+  }
+
   #menu {
     font-size: 2rem;
   }
 
   .header-text {
     width: 100%;
+    text-align: left;
+  }
+
+  .header-text h1 {
+    font-size: 1.6rem;
+  }
+
+  .about p,
+  .use p {
+    text-align: justify;
   }
 
   /* COUNTER */
@@ -153,7 +172,12 @@
     margin-left: 0%;
   }
 
+  footer h3 {
+    text-align: left;
+  }
+
   footer p {
     width: 100%;
+    text-align: justify;
   }
 }
