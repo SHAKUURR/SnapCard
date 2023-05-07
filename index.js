@@ -67,7 +67,7 @@ downloadButton.addEventListener("click", function () {
 	html2canvas(box, { scale: 3 }).then(function (canvas) {
 		// Create a download link for the PNG image
 		const link = document.createElement("a");
-		link.download = "image.png";
+		link.download = `${inputName.value}.png`;
 		link.href = canvas.toDataURL("image/png");
 
 		// Click the download link to initiate the download
